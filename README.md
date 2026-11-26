@@ -1,3 +1,5 @@
+> [!NOTE] Consolidated into the unified Holo v11 OS monorepo at https://github.com/awesome-os/awesome-os
+
 # Awesome-OS Universal FFI (`awesome-os/holo-ffi`)
 
 Write-once C11 **`B8G_ABI_MAGIC_V3` (`0x33564742`)** shared library (`b8g_sectium.dll` / `libb8g_sectium.so` / `wasm32-wasi`) providing **zero-HTTP** Sectium Display, `system://` host surface URIs, `v11` CAS paths, and 64-byte-aligned `B8gDisplayRing` bindings for:
