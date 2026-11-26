@@ -2,7 +2,7 @@
 
 Write-once C11 **`B8G_ABI_MAGIC_V3` (`0x33564742`)** shared library (`b8g_sectium.dll` / `libb8g_sectium.so` / `wasm32-wasi`) providing **zero-HTTP** Sectium Display, `system://` host surface URIs, `v11` CAS paths, and 64-byte-aligned `B8gDisplayRing` bindings for:
 
-- **`just-js/lo`** (`bindings/lo/lib/holo/api.js` — `const { holo } = lo.load('holo')` using native **V8 Fast API (`fastcall`)**, linked against our shared **`awesome-os/libv8_monolith` (`V8 15.8`)** with `0 B` duplicated V8!)
+- **`just-js/lo`** (`bindings/lo/lib/holo/api.js` — `const { holo } = lo.load('holo')` using native **V8 Fast API (`fastcall`)**, linked against our shared **`awesome-os/libv8_monolith` (`latest / V8 16+`)** with `0 B` duplicated V8!)
 - **Bun** (`BUN_FFI_SYMBOLS` for `bun:ffi` `dlopen`)
 - **Deno** (`DENO_FFI_SYMBOLS` for `Deno.dlopen`)
 - **Node.js** & **C11/Zig/Rust** (`include/b8g_sectium_ffi.h`)
